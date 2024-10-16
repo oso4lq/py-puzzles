@@ -1,0 +1,17 @@
+# Virtual environment
+env/
+
+# Environment variables
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+bot.log
+
+# Test results
+.coverage
+htmlcov/

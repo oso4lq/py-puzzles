@@ -4,7 +4,7 @@
 import os
 import numpy as np
 
-# Set the correct path for data.txt - used in every file for covenience
+# Set the correct path for data.txt - used in every file for convenience
 script_dir = os.path.dirname(os.path.abspath(__file__))
 data_file_path = os.path.join(script_dir, 'data.txt')
 try:
@@ -56,4 +56,5 @@ for line in lines:
 # Count the number of bulbs that are on
 num_on = np.sum(grid)
 
+# Output
 print(num_on)

@@ -10,7 +10,7 @@ try:
     with open(data_file_path, 'r') as file:
         instructions = file.read()
 except FileNotFoundError:
-    print(f"no data txt file")
+    print("no data txt file")
     exit(1)
 
 

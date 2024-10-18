@@ -14,7 +14,6 @@ except FileNotFoundError:
     exit(1)
 
 
-
 # Set initial values
 screen_width = 50
 screen_height = 6
